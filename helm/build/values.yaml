@@ -1,0 +1,21 @@
+app:
+  name: quarkus-app
+  namespace: quarkus-app-dev
+  cluster: .apps.ocp4.quitala.eu
+
+git:
+  branch: main
+  repo: https://github.com/janus-backstage/quarkus-app.git
+  org: janus-backstage
+  name: quarkus-app
+  host: github.com
+  token: ''
+  webhookSecret: ''
+
+
+image:
+  registry: Quay
+  organization: janus-backstage
+  host: quay.io
+  name: quarkus-app
+  tag: latest
